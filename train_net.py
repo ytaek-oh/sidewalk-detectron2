@@ -51,6 +51,7 @@ def setup(args):
     """
     Create configs and perform basic setups.
     """
+    _register_datasets(dataset_type='polygon')
     _register_datasets(dataset_type='bbox')
 
     cfg = get_cfg()

@@ -9,4 +9,4 @@ MODEL:
 DATASETS:
   TRAIN: ("sidewalk_bbox_train",)
   TEST: ("sidewalk_bbox_val",)
-#  TEST: ("sidewalk_polygon_test",)
+#  TEST: ("sidewalk_bbox_test",)
